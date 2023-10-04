@@ -6,7 +6,7 @@ body{
 	padding-right: 5%;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	font-size: 20pt;
+	font-size: 16pt;
 	background-color: white;
 }
 
@@ -26,8 +26,13 @@ li + li{
 }
 
 table.navbar{
+	table-layout: fixed;
 	width: 100%;
+}
+
+table.navbar td{
 	text-align: center;
+	width: 25%;
 }
 
 .foto{
@@ -43,6 +48,7 @@ ul.talks li span{
 }
 
 h1{
+	padding-top: .5em;
 	font-family: "Linux Libertine 0", Helvetica, Arial, sans-serif;
 }
 
