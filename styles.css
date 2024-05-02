@@ -64,7 +64,7 @@ a:link, a:visited{
 	color: #241e0b;
 }
 
-table.navbar a, footer a{
+table.navbar a, footer{
 	font-family: Helvetica, sans-serif;
 	text-decoration: none;
 }
